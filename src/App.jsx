@@ -12,7 +12,7 @@ function App() {
   
   return (
     <>
-      <div>
+      <div className="app">
        <Header/>
        <div className='card-container'>
         <Card 

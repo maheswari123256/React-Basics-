@@ -5,8 +5,14 @@
 }
 body{
     background-color: aquamarine;
-    overflow: hidden;
+    min-height: 100vh;
 }
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .header{
     display: flex;
     justify-content: center;
@@ -27,7 +33,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+   margin-top: auto;
     border-top: 1px solid rgba(128, 128, 128,0.4);
     height: 100px;
     background-color: pink;
